@@ -1,0 +1,178 @@
+@charset "UTF-8";
+.about_com {
+  margin-bottom: 200px;
+}
+
+.about_com .section_ttl {
+  margin-bottom: 80px;
+}
+.about_com_all {
+  padding: 100px;
+  border: solid 2px #ddd;
+  -webkit-box-shadow: 20px 20px 30px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+  display: flex;
+}
+
+.about_com_list {
+  width: 50%;
+}
+
+.about_com_item {
+  margin-bottom: 40px;
+}
+.about_com_ttl {
+  font-size: 23px;
+  display: inline-block;
+}
+
+.about_com_txt {
+  font-size: 20px;
+  display: inline-block;
+}
+.about_mem {
+  margin-bottom: 200px;
+}
+
+.about_mem .section_ttl {
+  margin-bottom: 80px;
+}
+.about_mem_all {
+  display: flex;
+  padding: 100px;
+  border: solid 2px #ddd;
+  -webkit-box-shadow: 20px 20px 30px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+}
+
+.about_mem_per {
+  width: 50%;
+  margin: 0 5%;
+}
+.about_mem_ttl {
+  font-size: 23px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.about_mem_ttl::before {
+  content: "";
+  width: 4px;
+  height: 30px;
+  background-color: #75a9ff;
+  position: absolute;
+  top: 15%;
+  left: -3%;
+}
+
+.about_mem_name {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.about_mem_txt {
+  font-size: 18px;
+  line-height: 1.8;
+}
+.about_acc {
+  margin-bottom: 150px;
+}
+
+.about_acc .section_ttl {
+  margin-bottom: 80px;
+}
+.about_acc_map {
+  width: 60%;
+  height: 350px;
+  -webkit-clip-path: polygon(0% 0%, 0% 400%, 80% 0%);
+  clip-path: polygon(0% 0%, 0% 400%, 80% 0%);
+}
+
+.about_acc_map iframe {
+  width: 100%;
+  height: 100%;
+}
+.about_acc_list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-1%, -100%);
+}
+.about_acc_item {
+  margin-bottom: 30px;
+}
+
+.about_acc_ttl {
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+.about_acc_txt {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {
+  .about_com_all {
+  padding: 50px;
+}
+
+.about_mem_all {
+  padding: 50px;
+}
+}
+@media screen and (max-width: 480px) {
+  .about_com_all {
+  display: block;
+}
+
+.about_com_list {
+  width: 100%;
+}
+
+.about_com_txt {
+  font-size: 16px;
+}
+.about_mem_all {
+  display: block;
+}
+
+.about_mem_per {
+  width: 100%;
+  margin: 0 0 20%;
+}
+
+.about_mem_name {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.about_mem_txt {
+  font-size: 16px;
+}
+
+.about_acc {
+  margin-bottom: 50px;
+}
+
+.about_acc_list {
+  position: relative;
+  margin: 30px 0;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+
+.about_acc_txt {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about_acc_map {
+  width: unset;
+  height: 350px;
+  margin: 10px;
+  -webkit-clip-path: none;
+  clip-path: none;
+}
+}

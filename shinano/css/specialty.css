@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.item-all{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.item1{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../img/toumoro.jpg");
+  background-size: cover;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ddd;
+  padding-top: 25%;
+}
+
+.item1-inner{
+  z-index: 5;
+  text-shadow: #000 5px 5px 5px;
+}
+.item1 p{
+  font-size: 0.5em;
+}
+.item1::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 1;
+  width: 80%;
+  height: 100%;
+  background:linear-gradient(rgba(255,255,255,0.25),rgba(0,0,0,0.7));
+}
